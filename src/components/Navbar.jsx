@@ -18,6 +18,7 @@ export default function Navbar() {
               <VscChromeClose onClick={() => setNavbarState(false)} />
             ) : (
               <GiHamburgerMenu
+                style={{ color: '#fff' }}
                 onClick={(e) => {
                   e.stopPropagation();
                   setNavbarState(true);
@@ -147,7 +148,7 @@ const ResponsiveNav = styled.div`
   right: -100vw;
   top: 0;
   z-index: 10;
-  background-color: white;
+  background-color: #000;
   height: 100vh;
   width: ${({ state }) => (state ? "60%" : "0%")};
   transition: 0.3s ease-in-out;

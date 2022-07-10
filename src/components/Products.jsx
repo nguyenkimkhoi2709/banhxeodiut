@@ -68,6 +68,7 @@ const Section = styled.section`
       gap: 0.6rem;
       justify-content: center;
       align-items: center;
+      color: #fff;
       h3 {
         color: #fc4958;
       }
