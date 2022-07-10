@@ -12,7 +12,7 @@ export default function Navbar() {
       <Nav>
         <div className="brand">
           {/* <img src={foodYummy} alt="Icon" /> */}
-          <p style={{ color: '#fff;', padding: '16px', fontSize: '24px', fontWeight: '700' }}>Bánh Xèo Dì Út</p>
+          <p style={{ color: '#fff', padding: '16px', fontSize: '24px', fontWeight: '700' }}>Bánh Xèo Dì Út</p>
           <div className="toggle">
             {navbarState ? (
               <VscChromeClose onClick={() => setNavbarState(false)} />
