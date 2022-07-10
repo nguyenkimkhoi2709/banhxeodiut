@@ -1,32 +1,32 @@
 import React from "react";
 import styled from "styled-components";
-import product1 from "../assets/product1.jpg";
-import product2 from "../assets/product2.jpg";
-import product3 from "../assets/product3.jpg";
-import product4 from "../assets/product4.jpg";
+import pro1 from "../assets/pro1.jpg";
+import pro2 from "../assets/pro2.jpg";
+import pro3 from "../assets/pro3.jpg";
+// import pro3 from "../assets/pro3.jpg";
 import { imageZoomEffect, TitleStyles } from "./ReusableStyles";
 export default function Products() {
   const data = [
     {
-      image: product1,
-      name: "Chicken Burger",
-      price: "$22.4/pcs",
+      image: pro1,
+      name: "Nem Lụi",
+      price: "7k/1 Cái",
     },
     {
-      image: product2,
-      name: "Toasted Bread",
+      image: pro2,
+      name: "Menu",
       price: "$5.5/pcs",
     },
     {
-      image: product3,
-      name: "Egg Sandwich",
-      price: "$8/pcs",
+      image: pro3,
+      name: "Chả Ram",
+      price: "30k/1 Phần",
     },
 
     {
-      image: product4,
-      name: "Raspberry Cake",
-      price: "$12.5/pcs",
+      image: pro3,
+      name: "Chả ram tôm đất",
+      price: "30k/1 Phần",
     },
   ];
   return (

@@ -1,12 +1,12 @@
 import React from "react";
 import styled from "styled-components";
-import hero from "../assets/hero.jpg";
+import pro1 from "../assets/pro1.jpg";
 import heroDesign from "../assets/HeroDesign.png";
 export default function Hero() {
   return (
     <Section id="home">
       <div className="background">
-        <img src={hero} alt="Background Image" />
+        <img src={pro1} alt="Hero" />
       </div>
       <div className="content">
         <div className="sale">

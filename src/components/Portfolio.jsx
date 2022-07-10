@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-import background from "../assets/portfolio.jpg";
+import pro3 from "../assets/pro3.jpg";
 export default function Portfolio() {
   return (
     <Section id="portfolio">
       <div className="background">
-        <img src={background} alt="" />
+        <img src={pro3} alt="" />
       </div>
       <div className="content">
         <h1>Buy Premium Pan Free Hand Toast!</h1>
