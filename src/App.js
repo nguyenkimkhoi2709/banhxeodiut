@@ -41,8 +41,8 @@ export default function App() {
       <Hero />
       {/* <Services /> */}
       <Portfolio />
-      <Testimonials />
       <Products />
+      <Testimonials />
       {/* <Newsletter /> */}
       <Footer />
     </>

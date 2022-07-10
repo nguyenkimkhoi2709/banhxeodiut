@@ -32,7 +32,7 @@ export default function Products() {
   return (
     <Section id="products">
       <div className="title">
-        <h1>
+        <h1 style={{ color: '#fff' }}>
           <span>Favourite</span> All the time!
         </h1>
       </div>
