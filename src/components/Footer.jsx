@@ -10,7 +10,8 @@ export default function Footer() {
     <div className="footer">
       <Section>
         <div className="brand container">
-          <img src={logo} alt="" />
+          {/* <img src={logo} alt="" /> */}
+          <p style={{ color: '#fff', paddingTop: '16px', fontSize: '30px', fontWeight: '700' }}>Bánh Xèo Dì Út</p>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis,
             repudiandae.
@@ -30,7 +31,7 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-        <div className="about container">
+        {/* <div className="about container">
           <div className="title">
             <h3>About Us</h3>
           </div>
@@ -39,20 +40,21 @@ export default function Footer() {
             eligendi repellat laudantium blanditiis iure nulla, ut aliquam
             itaque unde nesciunt cum veritatis perferendis vel expedita! Nam
           </p>
-        </div>
+        </div> */}
         <div className="contact container">
           <div className="title">
-            <h3>Contact Us</h3>
+            <h3>Thông Tin Liên Hệ</h3>
           </div>
-          <p>0123456789</p>
-          <p>nguyenkimkhoi2709@gmail.com</p>
+          <p><a style={{ color: '#101aef' }} href="tel:+84339062279">+84339062279</a></p>
+          <p><a style={{ color: '#101aef' }} href="mailto:banhxeodiut@gmail.com">banhxeodiut@gmail.com</a></p>
           {/* <p>@foodyummy</p> */}
-          <p>Ngoc Ha, Ba Dinh, Ha Noi</p>
+          <p>102c8 Giảng Võ - Ba Đình - Hà Nội</p>
         </div>
       </Section>
       <LowerFooter className="lower__footer">
         <h2>
-          Copyright &copy; 2022 <span>Khoi Nguyen</span>
+          Copyright &copy; 2022
+          {/* <span>Khoi Nguyen</span> */}
         </h2>
       </LowerFooter>
     </div>

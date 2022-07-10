@@ -11,8 +11,8 @@ export default function Navbar() {
     <>
       <Nav>
         <div className="brand">
-          <img src={foodYummy} alt="Icon" />
-          {/* <p>Banh xeo di ut</p> */}
+          {/* <img src={foodYummy} alt="Icon" /> */}
+          <p style={{ color: '#fff;', padding: '16px', fontSize: '24px', fontWeight: '700' }}>Bánh Xèo Dì Út</p>
           <div className="toggle">
             {navbarState ? (
               <VscChromeClose onClick={() => setNavbarState(false)} />
@@ -30,27 +30,27 @@ export default function Navbar() {
         <ul className="links">
           <li>
             <a href="#home" className="active">
-              Home
+              Trang chủ
             </a>
           </li>
           {/* <li>
             <a href="#services">Our Services</a>
           </li> */}
           <li>
-            <a href="#portfolio">Portfolio</a>
+            <a href="#portfolio">Chương Trình Khuyến Mãi</a>
           </li>
           <li>
-            <a href="#testimonials">Testimonials</a>
+            <a href="#testimonials">Feedback Khách Hàng</a>
           </li>
           <li>
-            <a href="#products">Products</a>
+            <a href="#products">Các Món Chính</a>
           </li>
           {/* <li>
             <a href="#newsletter">Newsletter</a>
           </li> */}
         </ul>
       </Nav>
-      <ResponsiveNav state={navbarState} className={navbarState ? "show" : ""}>
+      <ResponsiveNav style={{ width: '260px' }} state={navbarState} className={navbarState ? "show" : ""}>
         <ul>
           <li>
             <a
@@ -58,7 +58,7 @@ export default function Navbar() {
               className="active"
               onClick={() => setNavbarState(false)}
             >
-              Home
+              Trang chủ
             </a>
           </li>
           {/* <li>
@@ -68,17 +68,17 @@ export default function Navbar() {
           </li> */}
           <li>
             <a href="#portfolio" onClick={() => setNavbarState(false)}>
-              Portfolio
+              Chương Trình Khuyến Mãi
             </a>
           </li>
           <li>
             <a href="#testimonials" onClick={() => setNavbarState(false)}>
-              Testimonials
+              Feedback Khách Hàng
             </a>
           </li>
           <li>
             <a href="#products" onClick={() => setNavbarState(false)}>
-              Products
+              Các Món Chính
             </a>
           </li>
           {/* <li>
@@ -150,7 +150,7 @@ const ResponsiveNav = styled.div`
   z-index: 10;
   background-color: #000;
   height: 100vh;
-  width: ${({ state }) => (state ? "60%" : "0%")};
+  // width: ${({ state }) => (state ? "60%" : "0%")};
   transition: 0.3s ease-in-out;
   display: flex;
   opacity: 0;

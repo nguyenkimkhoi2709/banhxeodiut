@@ -8,7 +8,7 @@ export default function Testimonials() {
       <div className="container">
         <div className="title">
           <h1>
-            <span>What</span> Customers Says
+            <span>Feedback Khách Hàng</span>
           </h1>
         </div>
         <div className="testimonials">
