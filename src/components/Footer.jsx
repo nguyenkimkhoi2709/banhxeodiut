@@ -45,10 +45,10 @@ export default function Footer() {
           <div className="title">
             <h3>Thông Tin Liên Hệ</h3>
           </div>
-          <p><a style={{ color: '#101aef' }} href="tel:+84339062279">Sđt: +84339062279</a></p>
-          <p><a style={{ color: '#101aef' }} href="mailto:banhxeodiut@gmail.com">Email: banhxeodiut@gmail.com</a></p>
+          <p><a style={{ color: '#101aef', fontSize: '16px' }} href="tel:+84339062279">Sđt: +84339062279</a></p>
+          <p><a style={{ color: '#101aef', fontSize: '16px' }} href="mailto:banhxeodiut@gmail.com">Email: banhxeodiut@gmail.com</a></p>
           {/* <p>@foodyummy</p> */}
-          <p>Địa Chỉ: 102c8 Giảng Võ - Ba Đình - Hà Nội</p>
+          <p style={{ fontSize: '16px' }}>Địa Chỉ: 102c8 Giảng Võ - Ba Đình - Hà Nội</p>
         </div>
       </Section>
       <LowerFooter className="lower__footer">
