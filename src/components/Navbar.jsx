@@ -45,9 +45,9 @@ export default function Navbar() {
           <li>
             <a href="#products">Các Món Chính</a>
           </li>
-          {/* <li>
-            <a href="#newsletter">Newsletter</a>
-          </li> */}
+          <li>
+            <a href="#footer">Thông Tin Liên Hệ</a>
+          </li>
         </ul>
       </Nav>
       <ResponsiveNav style={{ width: '260px' }} state={navbarState} className={navbarState ? "show" : ""}>
@@ -81,11 +81,11 @@ export default function Navbar() {
               Các Món Chính
             </a>
           </li>
-          {/* <li>
-            <a href="#newsletter" onClick={() => setNavbarState(false)}>
-              Newsletter
+          <li>
+            <a href="#footer" onClick={() => setNavbarState(false)}>
+              Thông Tin Liên Hệ
             </a>
-          </li> */}
+          </li>
         </ul>
       </ResponsiveNav>
     </>

@@ -3,7 +3,6 @@ import styled from "styled-components";
 import pro1 from "../assets/pro1.jpg";
 import pro2 from "../assets/pro2.jpg";
 import pro3 from "../assets/pro3.jpg";
-// import pro3 from "../assets/pro3.jpg";
 import { imageZoomEffect, TitleStyles } from "./ReusableStyles";
 export default function Products() {
   const data = [
@@ -85,7 +84,7 @@ const Section = styled.section`
         border-radius: 1rem;
         img {
           height: 20rem;
-          width: 15rem;
+          width: 16rem;
           object-fit: cover;
         }
       }

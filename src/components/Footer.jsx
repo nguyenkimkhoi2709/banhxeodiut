@@ -7,7 +7,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { GrLinkedinOption } from "react-icons/gr";
 export default function Footer() {
   return (
-    <div className="footer">
+    <div className="footer" id="footer">
       <Section>
         <div className="brand container">
           {/* <img src={logo} alt="" /> */}
