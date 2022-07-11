@@ -46,7 +46,7 @@ export default function Navbar() {
             <a href="#products">Các Món Chính</a>
           </li>
           <li>
-            <a href="#footer">Thông Tin Liên Hệ</a>
+            <a href="#footer">Liên Hệ</a>
           </li>
         </ul>
       </Nav>
@@ -83,7 +83,7 @@ export default function Navbar() {
           </li>
           <li>
             <a href="#footer" onClick={() => setNavbarState(false)}>
-              Thông Tin Liên Hệ
+              Liên Hệ
             </a>
           </li>
         </ul>
