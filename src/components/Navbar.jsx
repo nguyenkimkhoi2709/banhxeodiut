@@ -12,7 +12,9 @@ export default function Navbar() {
       <Nav>
         <div className="brand">
           {/* <img src={foodYummy} alt="Icon" /> */}
-          <p style={{ color: '#fff', padding: '16px', fontSize: '24px', fontWeight: '700' }}>Bánh Xèo Dì Út</p>
+          <p style={{ color: '#fff', padding: '16px', fontSize: '24px', fontWeight: '700', fontStyle: 'italic' }}>
+            Bánh Xèo Dì Út
+          </p>
           <div className="toggle">
             {navbarState ? (
               <VscChromeClose onClick={() => setNavbarState(false)} />
@@ -45,9 +47,9 @@ export default function Navbar() {
           <li>
             <a href="#products">Các Món Chính</a>
           </li>
-          <li>
+          {/* <li>
             <a href="#footer">Liên Hệ</a>
-          </li>
+          </li> */}
         </ul>
       </Nav>
       <ResponsiveNav style={{ width: '260px' }} state={navbarState} className={navbarState ? "show" : ""}>
@@ -83,7 +85,7 @@ export default function Navbar() {
           </li>
           <li>
             <a href="#footer" onClick={() => setNavbarState(false)}>
-              Liên Hệ
+              Thông Tin Liên Hệ
             </a>
           </li>
         </ul>
