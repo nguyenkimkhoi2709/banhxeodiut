@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import { AiOutlineArrowUp } from "react-icons/ai";
+
 export default function ScrollToTop() {
   const [scrollState, setScrollState] = useState(false);
   const toTop = () => {
