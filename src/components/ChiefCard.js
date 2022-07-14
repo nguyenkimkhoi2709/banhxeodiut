@@ -8,7 +8,7 @@ export default function ChiefCard({chief}) {
             <img src={chief.img} alt="" />
             <div className="chief-card-info">
                 <h3 className="chief-card-name">{chief.name}</h3>
-                <p className="chief-recipe-count">Kinh nghiệm: <b>{chief.recipesCount}</b></p>
+                {/* <p className="chief-recipe-count">Kinh nghiệm: <b>{chief.recipesCount}</b></p> */}
                 <p className="chief-cuisine">Ẩm thực: <b>{chief.cuisine}</b></p>
                 <p className="cheif-icons">
                     <FontAwesomeIcon icon={faFacebook} />
