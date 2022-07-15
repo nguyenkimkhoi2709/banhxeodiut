@@ -8,7 +8,7 @@ import Slider from "../components/Slider";
 export default function Home(){
     return (
         <div>
-            <Slider />
+            {/* <Slider /> */}
             <HeroSection />
             <ImproveSkills />
             <QouteSection />

@@ -5,6 +5,7 @@ import {
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import ScrollToTop from "./components/ScrollTotop";
+import Slider from "./components/Slider";
 import Home from "./pages/Home";
 import Menu from "./pages/Menu";
 import Settings from "./pages/Settings";
@@ -14,6 +15,7 @@ function App() {
     <Router>
       <ScrollToTop />
       <Navbar />
+      <Slider />
       <div className="container main">
         <Routes>
           <Route path="/" element={<Home />} />
