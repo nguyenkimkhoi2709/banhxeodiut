@@ -15,7 +15,9 @@ function App() {
     <Router>
       <ScrollToTop />
       <Navbar />
-      <Slider />
+      <Routes>
+        <Route path="/" element={<Slider />}/>
+      </Routes>
       <div className="container main">
         <Routes>
           <Route path="/" element={<Home />} />
